@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+  /* Mobile scroll-padding: Header (4rem) + CategoryNav (3.5rem) = 7.5rem */
+  scroll-padding-top: 7.5rem;
+}
+@media (min-width: 640px) { /* sm breakpoint */
+  html {
+    /* Desktop scroll-padding: Header (5rem) + CategoryNav (3.5rem) = 8.5rem */
+    scroll-padding-top: 8.5rem;
+  }
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #f8f9fa;
+}
