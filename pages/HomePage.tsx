@@ -14,23 +14,23 @@ const HomePage: React.FC = () => {
     return (
         <>
             <Hero />
-            <div>
+            <div id="why-us">
                 <WhyChooseUs />
             </div>
             <div id="best-sellers">
                 <ProductGrid title="Our Best Selling Products" products={BEST_SELLING_PRODUCTS} />
             </div>
             <SuperclassIronSection />
-            <div>
+            <div id="testimonials">
                 <Testimonials />
             </div>
-            <div>
+            <div id="about-us">
                 <AboutUs />
             </div>
             <div>
                 <ContactUs />
             </div>
-            <div>
+            <div id="find-us">
                 <LocationInfo />
             </div>
         </>

@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import FloatingWhatsAppButton from './components/FloatingWhatsAppButton';
-import CategoryNav from './components/CategoryNav';
+
 import HomePage from './pages/HomePage';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
@@ -63,7 +63,7 @@ const App: React.FC = () => {
     <div className="bg-gray-100 text-gray-900">
       <div className="sticky top-0 z-50">
         <Header />
-        <CategoryNav />
+        
       </div>
       <main>
         {renderContent()}
