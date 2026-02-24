@@ -10,20 +10,20 @@ export const CATEGORIES = ["Home Appliances", "Kitchen", "Family Essentials"];
 
 export const BEST_SELLING_PRODUCTS: Product[] = [
     {
-        name: "Superclass Iron",
-        imageUrl: "https://i.ibb.co/20pPJHyr/hf-20260205-151026-9d311414-3f06-4bd8-9289-4d2df488b63d.jpg",
+        name: "High Quality Kettle",
+        imageUrl: "https://i.ibb.co/1YM1rWhp/Chat-GPT-Image-Feb-24-2026-03-35-56-AM.png",
         category: "Home Appliances",
         bestSeller: true,
     },
     {
         name: "High-Performance Blender",
-        imageUrl: "https://i.ibb.co/wFL0GLGH/hf-20260214-004528-aaba188f-5591-4b01-a10b-e3e8e3a4689d.png",
+        imageUrl: "https://i.ibb.co/YB1wbMQ0/Chat-GPT-Image-Feb-23-2026-09-38-30-PM.png",
         category: "Kitchen",
         bestSeller: true,
     },
     {
         name: "Super Powerful Microwaves",
-        imageUrl: "https://i.ibb.co/Sw6HWRGS/hf-20260214-031321-37320df9-29a4-4df5-84b6-2deaf172776a.png",
+        imageUrl: "https://i.ibb.co/d0D2gwK3/Chat-GPT-Image-Feb-23-2026-09-38-44-PM.png",
         category: "Kitchen",
         bestSeller: true,
     },

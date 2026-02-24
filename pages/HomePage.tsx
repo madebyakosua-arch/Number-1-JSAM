@@ -8,6 +8,7 @@ import ProductGrid from '../components/ProductGrid';
 import { BEST_SELLING_PRODUCTS } from '../constants';
 import LocationInfo from '../components/LocationInfo';
 import SuperclassIronSection from '../components/SuperclassIronSection';
+import ContactUs from '../components/ContactUs';
 
 const HomePage: React.FC = () => {
     return (
@@ -16,7 +17,7 @@ const HomePage: React.FC = () => {
             <div>
                 <WhyChooseUs />
             </div>
-            <div>
+            <div id="best-sellers">
                 <ProductGrid title="Our Best Selling Products" products={BEST_SELLING_PRODUCTS} />
             </div>
             <SuperclassIronSection />
@@ -25,6 +26,9 @@ const HomePage: React.FC = () => {
             </div>
             <div>
                 <AboutUs />
+            </div>
+            <div>
+                <ContactUs />
             </div>
             <div>
                 <LocationInfo />
